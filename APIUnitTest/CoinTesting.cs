@@ -54,5 +54,18 @@ namespace APIUnitTest
             Assert.True(coin != null);
             Assert.Equal(coin?.Id, existingId);
         }
+
+        [Fact]
+        public void Get_Shold_return_NotFound()
+        {
+            // Arrage
+            int nonExistentId = 100;
+
+            // Act
+            var result = _coinController.GetById(nonExistentId);
+
+            // Assert
+            Assert.IsType<NotFoundResult>(result);
+        }
     }
 }
