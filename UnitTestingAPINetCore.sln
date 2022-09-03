@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestingAPINetCore", "UnitTestingAPINetCore\UnitTestingAPINetCore.csproj", "{D5BB4090-B6A1-4077-8E1D-B796A05F70B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestingAPINetCore", "UnitTestingAPINetCore\UnitTestingAPINetCore.csproj", "{D5BB4090-B6A1-4077-8E1D-B796A05F70B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIUnitTest", "APIUnitTest\APIUnitTest.csproj", "{12E7EA4E-59FF-4F6C-8F46-8EBC063685BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D5BB4090-B6A1-4077-8E1D-B796A05F70B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5BB4090-B6A1-4077-8E1D-B796A05F70B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5BB4090-B6A1-4077-8E1D-B796A05F70B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E7EA4E-59FF-4F6C-8F46-8EBC063685BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E7EA4E-59FF-4F6C-8F46-8EBC063685BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E7EA4E-59FF-4F6C-8F46-8EBC063685BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E7EA4E-59FF-4F6C-8F46-8EBC063685BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
